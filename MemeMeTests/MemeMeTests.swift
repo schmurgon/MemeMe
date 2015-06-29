@@ -1,6 +1,6 @@
 //
-//  ImagePickerTests.swift
-//  ImagePickerTests
+//  MemeMeTests.swift
+//  MemeMeTests
 //
 //  Created by Ben Scott on 17/05/2015.
 //  Copyright (c) 2015 Schmurgon Pty Ltd. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class ImagePickerTests: XCTestCase {
+class MemeMeTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
