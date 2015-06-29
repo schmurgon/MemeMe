@@ -70,7 +70,7 @@ class MemeController: UIViewController, UIImagePickerControllerDelegate, UINavig
     func generatedMemedImage() -> UIImage{
         
         // hide the UI controls so they don't appear in the saved image
-        navigationController?.setNavigationBarHidden(true, animated: true)
+        navigationController?.setNavigationBarHidden(true, animated: false)
         toolbar.hidden = true
         
         // create the meme
@@ -80,7 +80,7 @@ class MemeController: UIViewController, UIImagePickerControllerDelegate, UINavig
         UIGraphicsEndImageContext()
 
         // re-enable the UI controls
-        navigationController?.setNavigationBarHidden(false, animated: true)
+        navigationController?.setNavigationBarHidden(false, animated: false)
         toolbar.hidden = false
         
         return memedImage
